@@ -1,0 +1,1132 @@
+
+
+/*esti es para el body normal*/
+
+body{
+    margin: 0;
+    padding-left: 0;
+    background: #1b1b1b;
+    
+
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.circuG {
+    background-color: #ff6600;
+    position: absolute;
+    top: 16px;
+    left: 120px;
+    border-radius: 2rem;
+    color: white;
+    padding: 7px;
+}
+/*lo nuevo con slades*/
+.tt {
+    width: 20%;
+    position: relative;
+    top: 150px;
+    z-index: 4;
+    display: none;
+}
+
+.rig {
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0);
+    color: red;
+    outline: none;
+    position: relative;
+    left: 315px;
+}
+  
+.lef {
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0);
+    color: red;
+    outline: none;
+    position: relative;
+    left: 1px;
+}
+
+.slais {
+    z-index: 3;
+    top: 745px;
+    left: 49px;
+    position: absolute;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
+    backdrop-filter: blur(1px);
+    width: 25rem;
+    border-radius: 2rem;
+}
+
+.txx {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 115px;
+    top: 15px;
+    padding: 5px;
+    border-radius: 2rem;
+    font-family: cursive;
+    background-color: #ff7300;
+}
+
+
+   a{
+    color:#ff0000;
+    transition: 70ms all;
+  }
+  
+  .fa-whatsapp{
+display: none;
+}
+
+.upe{
+    display: none;
+}
+
+  a:active{
+    color: #ff7300;
+    transition: 80ms all;
+  }
+  
+  button{
+    border: 0px solid transparent;
+  } 
+  .fa-chevron-left{
+    font-size: 35px;
+    transition: 121ms;
+  }
+  
+  .fa-chevron-right{
+    font-size: 35px;
+    transition: 121ms;
+  }
+  
+  .rig, .fa-chevron-right:hover{
+    font-size: 44px;
+     height: 4rem;
+  }
+  
+  .lef, .fa-chevron-left:hover{
+    font-size: 44px;
+   
+    height: 4rem;
+  }
+
+
+/*header lo antifuo sin slides*/
+.search_box{
+    position: absolute;
+    margin-top: 5%;
+    top: 6%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+     height: 39.99px; 
+     border-radius: 40px;
+    padding: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.3);
+
+    
+}
+ 
+
+.btn{
+ 
+     
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_box input[type=text] {
+    background: #000000; 
+    padding: 5px;
+    width: 600px;
+    margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+
+.input_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.search_box:hover > .input_box{
+    width: 80px;
+    padding: 0px 6px;
+
+}
+
+.search_box:hover .btn{
+    background-color: rgb(0, 0, 0);
+    
+}
+.text0 {
+    color: rgb(255, 255, 255);
+    background-color: #12af3a;
+    float: right;
+    width: 30%;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 60px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.8);
+    margin-right: 5%;
+}
+
+
+.text0:hover{
+    background-color: #ff7300;
+}
+ 
+/* de camino a movies css*/
+
+.pelis{
+    position: absolute;
+    top: 39%;
+    margin-top: 5%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    background-color: #12af3a;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+     
+ }
+ 
+
+.cnm{
+ 
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.8);
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #12af3a; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pelis_box input[type=text] {
+    background: #12af3a; 
+    padding: 5px;
+    width: 600px;
+     margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+.pelis_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+
+.vanila-script{
+    width: 5%;
+    transition: 0.3s;
+ 
+}
+
+.vanila-script:hover{
+    width: 10%;
+    transition: 0.6s;
+    
+}
+
+
+
+.pelis:hover > .pelis_box{
+    width: 55px;
+    padding: 0px 6px;
+
+}
+
+.pelis:hover .cnm{
+    background-color: rgb(0, 0, 0);
+    float: right;
+    
+}
+
+/*de camino a nba*/
+
+ 
+.stre{
+    position: absolute;
+    top: 39%;
+    margin-top: 5%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+    background-color: #ff0000;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+     
+ }
+ 
+
+.strem{
+ 
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.8);
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff0000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stre_box input[type=text] {
+    background: #ff0000; 
+    padding: 5px;
+    width: 600px;
+     margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+.stre_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+
+.stre:hover > .stre_box{
+    width: 55px;
+    padding: 0px 6px;
+
+}
+
+.stre:hover .strem{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    
+}
+
+ 
+
+/* de camino a mangas*/
+
+.mangas{
+    position: absolute;
+    top: 30%;
+    margin-top: 5%;
+    left: 29.58%;
+    transform: translate(-50%,-50%);
+    background-color: #00d9ff;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+    
+     
+}
+ 
+
+.mngs{
+ 
+     box-shadow: 0px 10px 10px rgba(0, 0, 0,0.6);
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #00d9ff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mangas_box input[type=text] {
+    background: #00d9ff; 
+    padding: 5px;
+    width: 600px;
+    margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+
+.mangas_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.mangas:hover > .mangas_box{
+    width: 55px;
+    padding: 0px 6px;
+
+}
+
+.mangas:hover .mngs{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    
+}
+
+
+/*de camino a anime*/
+a {
+    color: #ff6600;
+    transition: 70ms all;
+}
+
+.anime{
+    position: absolute;
+    top: 39%;
+    margin-top: 5%;
+    left: 43.9%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+    
+ }
+ 
+
+.anm{
+ 
+     box-shadow: 0px 10px 10px rgba(0, 0, 0,0.5);
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff6600; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime_box input[type=text] {
+    background: #ff6600; 
+    padding: 5px;
+    width: 600px;
+    margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+  ::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+   }
+
+.anime_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    font-family: serif;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.anime:hover > .anime_box{
+    width: 55px;
+    padding: 0px 6px;
+    
+}
+
+.anime:hover .anm{
+    background-color: rgb(255, 94, 0);
+     float: right;
+    
+}
+
+ 
+/*esto es para los middleblocku*/
+
+.image{
+    position: relative;
+    width: 100%;
+    background-color: seagreen;
+    
+}
+
+.image__img{
+display: block;
+width: 100%;
+
+}
+
+ 
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;  
+      
+}
+.video{
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+ }
+.image__overlay:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.juju{
+    
+    position:absolute;
+    width:40%;
+    min-height:40px;
+    z-index:300000;
+    bottom:10px;
+    left:10px;
+    text-align:center;
+    top: 38%;
+
+}
+
+.haikyuu{
+    position:absolute;
+    width:35%;
+    min-height:40px;
+    z-index:300000;
+    bottom:10px;
+    left:10px;
+    text-align:center;
+    top: 52%;
+}
+
+.shn{
+    position:absolute;
+    width:45%;
+    min-height:40px;
+    z-index:300000;
+    bottom:10px;
+    left:0px;
+    text-align:center;
+    top: 52%;
+}
+
+.fire{
+    position:absolute;
+    width:40%;
+    min-height:40px;
+    z-index:300000;
+    bottom:10px;
+    left:10px;
+    text-align:center;
+    top: 50%;
+}
+
+/*buttonnne*/
+ 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #1b1b1b;
+    }
+    .slais {
+        z-index: 3;
+        top: 250px;
+        left: 0px;
+        position: absolute;
+        background: linear-gradient( to right bottom, rgba(194, 0, 3, 0.7), rgba(255, 55, 0, 0.9) );
+        backdrop-filter: blur(1px);
+        width: 360px;
+        height: 517px;
+        border-radius: 0px;
+    }
+    
+    .image {
+        position: relative;
+        width: 100%;
+        top: -64px;
+        background-color: seagreen;
+    }
+    
+    .circuG {
+        z-index: 3;
+        top: 11px;
+        left: 3px;
+        position: absolute;
+        background: ghostwhite;
+        backdrop-filter: blur(3px);
+        width: 338px;
+        box-shadow: 0px 0px 11px rgba(0, 0, 0,0.4);
+        height: 492px;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+    
+    
+    .circuP {
+        z-index: 3;
+        top: 108px;
+        left: 54px;
+        position: absolute;
+        background: -webkit-radial-gradient(50% 50%, circle, transparent 49%, #ff7300 50%);
+        backdrop-filter: blur(4px);
+        width: 256px;
+        height: 263px;
+        box-shadow: 0px 0px 16px rgba(0, 0, 0,0.9);
+        border-radius: 20rem;
+    }
+    .mute {
+        z-index: 4;
+        top: 24px;
+        left: 145px;
+        position: absolute;
+        background: linear-gradient( to right bottom, rgba(255, 165, 0, 0.9), rgba(255, 16, 100, 1.3) );
+        backdrop-filter: blur(1px);
+        width: 71px;
+        height: 11px;
+        border-radius: 5rem;
+    }
+    
+    .updaon {
+        z-index: 3;
+        top: 291px;
+        left: -1px;
+        background: azure;
+        box-shadow: 0px 0px 16px rgba(0, 0, 0,0.9);
+        position: absolute;
+        backdrop-filter: blur(1px);
+        width: 360px;
+        display: none;
+        height: 207px;
+        box-shadow: 0px 0px 16px lavender;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+    
+    .tt {
+        width: 20%;
+        position: relative;
+        top: 150px;
+        z-index: 4;
+        display: block;
+    }
+    
+    
+
+
+    .lef {
+        width: 40px;
+        height: 40px;
+        background: rgba(0,0,0,0);
+        color: rgb(255, 255, 255);
+        outline: none;
+        position: relative;
+        left: 52px;
+        z-index: 5;
+        top: 200px;
+    }
+    
+    .rig {
+        width: 40px;
+        height: 40px;
+        background: rgba(0,0,0,0);
+        color: rgb(255, 255, 255);
+        outline: none;
+        position: relative;
+        left: 227px;
+        top: 200px;
+        z-index: 5;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*toppppppppppppp*/
+    
+/*header lo antifuo sin slides*/
+.search_box{
+    position: absolute;
+    margin-top: 5%;
+    top: 6%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+     height: 39.99px; 
+     border-radius: 40px;
+    padding: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.3);
+
+    
+}
+ 
+
+.btn{
+ 
+     
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_box input[type=text] {
+    background: #000000; 
+    padding: 5px;
+    width: 600px;
+    margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+
+.input_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.search_box:hover > .input_box{
+    width: 0px;
+    padding: 0px 0px;
+
+}
+
+.search_box:hover .btn{
+    background-color: rgb(0, 0, 0);
+    
+}
+.text0 {
+    color: rgb(255, 255, 255);
+    background-color: #12af3a;
+    float: right;
+    width: 30%;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 60px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.8);
+    margin-right: 5%;
+}
+
+
+.text0:hover{
+    background-color: #ff7300;
+}
+ 
+/* de camino a movies css*/
+
+.pelis{
+    position: absolute;
+    top: 39%;
+    margin-top: 5%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    background-color: #12af3a;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+     
+ }
+ 
+
+.cnm{
+ 
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.8);
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #12af3a; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pelis_box input[type=text] {
+    background: #12af3a; 
+    padding: 5px;
+    width: 600px;
+     margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+.pelis_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+
+.vanila-script{
+    width: 5%;
+    transition: 0.3s;
+ 
+}
+
+.vanila-script:hover{
+    width: 10%;
+    transition: 0.6s;
+    
+}
+
+
+
+.pelis:hover > .pelis_box{
+    width: 0px;
+    padding: 0px 0px;
+
+}
+
+.pelis:hover .cnm{
+    background-color: rgb(0, 0, 0);
+    float: right;
+    
+}
+
+/*de camino a nba*/
+
+ 
+.stre{
+    position: absolute;
+    top: 39%;
+    margin-top: 5%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+    background-color: #ff0000;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+     
+ }
+ 
+
+.strem{
+ 
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.8);
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff0000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stre_box input[type=text] {
+    background: #ff0000; 
+    padding: 5px;
+    width: 600px;
+     margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+.stre_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+
+.stre:hover > .stre_box{
+    width: 0px;
+    padding: 0px 0px;
+
+}
+
+.stre:hover .strem{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    
+}
+
+ 
+
+/* de camino a mangas*/
+
+.mangas{
+    position: absolute;
+    top: 30%;
+    margin-top: 5%;
+    left: 29.58%;
+    transform: translate(-50%,-50%);
+    background-color: #00d9ff;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+    
+     
+}
+ 
+
+.mngs{
+ 
+     box-shadow: 0px 10px 10px rgba(0, 0, 0,0.6);
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #00d9ff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mangas_box input[type=text] {
+    background: #00d9ff; 
+    padding: 5px;
+    width: 600px;
+    margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+
+.mangas_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.mangas:hover > .mangas_box{
+    width: 0px;
+    padding: 0px 0px;
+
+}
+
+.mangas:hover .mngs{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    
+}
+
+
+/*de camino a anime*/
+a {
+    color: #fff;
+    transition: 70ms all;
+}
+
+.anime{
+    position: absolute;
+    top: 39%;
+    margin-top: 5%;
+    left: 43.9%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+    
+ }
+ 
+
+.anm{
+ 
+     box-shadow: 0px 10px 10px rgba(0, 0, 0,0.5);
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff6600; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime_box input[type=text] {
+    background: #ff6600; 
+    padding: 5px;
+    width: 600px;
+    margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+  ::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+   }
+
+.anime_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    font-family: serif;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.anime:hover > .anime_box{
+    width: 0px;
+    padding: 0px 0px;
+    
+}
+
+.anime:hover .anm{
+    background-color: rgb(255, 94, 0);
+     float: right;
+    
+}
+
+ 
+
+/**//**//**//*//*//**//*///*/
+ 
+
+.upe{
+    position: absolute;
+    width: 20px;
+    top: 106px;
+    left: 159px;
+    z-index: 5;
+    height: 20px;
+    font-size: 40px;
+    outline: none;
+    background-color: transparent;
+    display: block;
+}
+
+
+
+.fa-whatsapp{
+    color: #12af3a;
+    background-color: #fff;
+    border-radius: 400px;
+    padding: -20px;  
+}
+
+.fa-whatsapp:hover{
+    color: #12af3a;
+    transform: scale(1.2); 
+}
+
+
+
+
+}
+
+/*tl*/
+@media only screen and (min-width: 1382PX) {
+    .slais {
+        z-index: 3;
+        top: 985px;
+        left: 14px;
+        position: absolute;
+        background: linear-gradient( to right bottom, rgba(255, 81, 0, 0.9), rgba(255, 255, 255, 0.87));
+        backdrop-filter: blur(1px);
+        width: 25rem;
+        border-radius: 2rem;
+    }
+
+}

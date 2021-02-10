@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    padding-left: 0;
+    background-color: #1b1b1b;
+    
+
+
+}
+  
+
+ 
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+ 
+
+/*header*/
+.search_box{
+    position: absolute;
+    margin-top: 5%;
+    top: 6%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+     height: 39.99px; 
+     border-radius: 40px;
+    padding: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.3);
+
+    
+}
+ 
+
+.btn{
+ 
+     
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_box input[type=text] {
+    background: #000000; 
+    padding: 5px;
+    width: 600px;
+    margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+
+.input_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.search_box:hover > .input_box{
+    width: 80px;
+    padding: 0px 6px;
+
+}
+
+.search_box:hover .btn{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+ 
+/* de camino a movies css*/
+
+.pelis{
+    position: absolute;
+    top: 39%;
+    margin-top: 5%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    background-color: #12af3a;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+     
+ }
+ 
+
+.cnm{
+ 
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.8);
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #12af3a; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pelis_box input[type=text] {
+    background: #12af3a; 
+    padding: 5px;
+    width: 600px;
+     margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+.pelis_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+
+
+.pelis:hover > .pelis_box{
+    width: 55px;
+    padding: 0px 6px;
+
+}
+
+.pelis:hover .cnm{
+    background-color: rgb(0, 0, 0);
+    float: right;
+    
+}
+
+/*de camino a nba*/
+
+ 
+.stre{
+    position: absolute;
+    top: 39%;
+    margin-top: 5%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+     
+ }
+ 
+
+.strem{
+ 
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.8);
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff0000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stre_box input[type=text] {
+    background: #ff0000; 
+    padding: 5px;
+    width: 600px;
+     margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+.stre_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+
+.stre:hover > .stre_box{
+    width: 55px;
+    padding: 0px 6px;
+
+}
+
+.stre:hover .strem{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    
+}
+
+ 
+
+/* de camino a mangas*/
+
+.mangas{
+    position: absolute;
+    top: 30%;
+    margin-top: 5%;
+    left: 29.58%;
+    transform: translate(-50%,-50%);
+    background-color: #00d9ff;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+    
+     
+}
+ 
+
+.mngs{
+ 
+     box-shadow: 0px 10px 10px rgba(0, 0, 0,0.6);
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #00d9ff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mangas_box input[type=text] {
+    background: #00d9ff; 
+    padding: 5px;
+    width: 600px;
+    margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+ 
+
+.mangas_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.mangas:hover > .mangas_box{
+    width: 55px;
+    padding: 0px 6px;
+
+}
+
+.mangas:hover .mngs{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    
+}
+
+
+/*de camino a anime*/
+
+.anime{
+    position: absolute;
+    top: 39%;
+    margin-top: 5%;
+    left: 43.9%;
+    transform: translate(-50%,-50%);
+    background-color: #ff6600;
+     height: 40px; 
+     border-radius: 40px;
+    padding: 6px;
+    
+ }
+ 
+
+.anm{
+ 
+     box-shadow: 0px 10px 10px rgba(0, 0, 0,0.5);
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff6600; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime_box input[type=text] {
+    background: #ff6600; 
+    padding: 5px;
+    width: 600px;
+    margin-top: 14px;
+    font-size: 17px;
+    border: none;
+  }
+  ::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+   }
+
+.anime_box{
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    font-family: serif;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.anime:hover > .anime_box{
+    width: 55px;
+    padding: 0px 6px;
+    
+}
+
+.anime:hover .anm{
+    background-color: rgb(255, 255, 255);
+     float: right;
+    
+}
+
+
+.border{
+    width: 50px;
+}
